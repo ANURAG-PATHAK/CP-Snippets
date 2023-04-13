@@ -23,6 +23,8 @@
           "#define forsn(i,s,e) for(ll i = s; i < e; i++)",
           "#define rforn(i,s) for(ll i = s; i >= 0; i--)",
           "#define rforsn(i,s,e) for(ll i = s; i >= e; i--)",
+          "#define vin(arr, n) for(ll i = 0; i < n; i++) cin >> arr[i];",
+          "#define vout(arr, n) for(ll i = 0; i < n; i++) cout << arr[i] << \" \";",
           "#define ln \"\\n\"",
           "#define dbg(x) cout<<#x<<\" = \"<<x<<ln",
           "#define mp make_pair",
